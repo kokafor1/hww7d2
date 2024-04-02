@@ -99,14 +99,14 @@ let shopItems = [
     },
 ];
 
-// shopItems.forEach(item => {
-//     console.log('===========');
-//     console.log('Name: \t', item.name);
-//     console.log("Price: \t", item.price);
-//     console.log("About: \t", item.desc);
-//     console.log("Category: ", item.category);
-//     console.log('===========');
-// });
+shopItems.forEach(item => {
+    console.log('===========');
+    console.log('Name: \t', item.name);
+    console.log("Price: \t", item.price);
+    console.log("About: \t", item.desc);
+    console.log("Category: ", item.category);
+    console.log('===========');
+});
 
 
 
